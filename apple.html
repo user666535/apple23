@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>〇〇農園のリンゴ</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>〇〇農園</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">農園について</a></li>
+                <li><a href="#products">商品紹介</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <img src="hero-image.jpg" alt="リンゴ畑の画像">
+        <h2>採れたて！新鮮なリンゴをあなたに</h2>
+        <a href="#products" class="btn">商品を見る</a>
+    </section>
+
+    <section id="about">
+        <h2>農園について</h2>
+        <p>〇〇農園は、豊かな自然に囲まれた場所で、愛情たっぷりにリンゴを育てています。...</p>
+    </section>
+
+    <section id="products">
+        <h2>商品紹介</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="リンゴ1">
+            <h3>サンふじ</h3>
+            <p>甘みと酸味のバランスが抜群！人気の品種です。</p>
+            <p>価格：5kg 〇〇円</p>
+            <button class="btn">購入する</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="リンゴ2">
+            <h3>シナノスイート</h3>
+            <p>ジューシーで甘みが強い品種です。</p>
+            <p>価格：5kg 〇〇円</p>
+            <button class="btn">購入する</button>
+        </div>
+        </section>
+
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form>
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name">
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="email">
+            <label for="message">お問い合わせ内容</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit" class="btn">送信</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 〇〇農園</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
